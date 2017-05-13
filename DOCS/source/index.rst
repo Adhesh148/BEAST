@@ -1,0 +1,46 @@
+.. RDBMS Normalization Library documentation master file, created by
+   sphinx-quickstart on Fri Apr 28 10:55:18 2017.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+RDBMS Normalization Library
+===========================
+
+How to use
+**********
+
+It is just as easy as that::
+    
+	import normalization
+
+	#creates a database and reads attributes and FDs
+	sample_db = normalization.database()
+
+	#prints attributes, FDs and candidate keys
+	sample_db.print_all()
+	
+	#test for violations of 2NF, 3NF and BCNF
+	sample_db.test_all_NFs()
+	
+	#dependency preserving loseless join decomposition into 3NF
+	sample_db.dep_los_3NFdecompose()
+
+Guide
+*****
+
+.. toctree::
+   :maxdepth: 2
+
+   user_guide/introduction
+   user_guide/installation
+   user_guide/normalization_api
+   user_guide/examples
+   user_guide/contributors
+   user_giide/license
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

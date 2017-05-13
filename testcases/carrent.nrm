@@ -1,0 +1,2 @@
+carRegNo make model custDriverLicNo custName hireDateTime oNo oLocation
+model -> make;carRegNo -> model,oNo;oNo -> oLocation;custDriverLicNo -> custName;carRegNo,hireDateTime -> custDriverLicNo

@@ -1,0 +1,2 @@
+customerNo cname propertyNo paddress rentStart rentFinish rent ownerNo oname
+customerNo -> cname;ownerNo -> oname;propertyNo -> paddress,rent,ownerNo,oname;customerNo,propertyNo -> rentStart,rentFinish

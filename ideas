@@ -1,0 +1,13 @@
+4th Normal Form
+===============
+
+By default MVD check is disabled.
+__MVD_CHECK__ = False
+
+Can be enabled.
+
+Asks for non-trivial MVDs in the form
+
+X -->>-- A,B|C,D,E|F,G
+
+perform decomposition into 4NF

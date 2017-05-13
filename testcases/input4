@@ -1,0 +1,2 @@
+A B C D
+A->B,C ; A,C->D ; D->B ; A,B->D

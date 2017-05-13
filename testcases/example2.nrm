@@ -1,0 +1,2 @@
+clientNo date time staffNo roomNo
+clientNo,date -> time,staffNo,roomNo;staffNo,date,time -> clientNo;roomNo,date,time -> staffNo,clientNo;staffNo,date -> roomNo

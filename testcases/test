@@ -1,0 +1,3 @@
+Property_id# County_name Lot# Area Price Tax_rate
+Property_id#->County_name,Lot#,Area,Price,Tax_rate;County_name,Lot#->Property_id#,Area,Price,Tax_rate;County_name->Tax_rate;Area->Price
+Property_id#;County_name,Lot#
